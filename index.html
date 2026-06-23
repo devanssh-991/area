@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Area — Modern Product Launch</title>
+  <meta name="description" content="Build buzz around your launch with this bold product template.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Roboto+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <nav id="nav-bar" class="nav">
+      <div class="nav__row">
+        <p class="nav__logo">Area</p>
+        <div class="nav__toggle-wrap">
+          <button id="open-menu" class="nav__toggle" aria-label="Open menu">
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
+          </button>
+          <button id="close-menu" class="nav__toggle hidden" aria-label="Close menu">
+            <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/></svg>
+          </button>
+        </div>
+        <a href="#contacts" class="btn btn--primary btn--nav group">
+          Learn Figma
+          <svg class="btn__arrow" width="16" height="16" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v13m0-13 4 4m-4-4-4 4"/></svg>
+        </a>
+      </div>
+    </nav>
+
+    <div id="mobile-menu" class="nav-menu">
+      <div class="nav-menu__links">
+        <a href="#benefits" class="nav-menu__link">Benefit</a>
+        <a href="#specs" class="nav-menu__link">Specifications</a>
+        <a href="#how-to" class="nav-menu__link">How-to</a>
+        <a href="#contacts" class="nav-menu__link">Contact Us</a>
+      </div>
+      <div class="nav-menu__cta-wrap">
+        <a href="#contacts" class="btn btn--primary">
+          Learn Figma
+          <svg class="btn__arrow" width="16" height="16" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v13m0-13 4 4m-4-4-4 4"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <header class="hero">
+      <h1 class="text-display text-center fade-in-fast">Browse everything.</h1>
+      <div class="hero__frame">
+        <div class="hero__panel fade-in-fast"></div>
+        <picture class="hero__phones fade-in">
+          <source srcset="images/hero-desktop.webp" media="(min-width: 1024px)">
+          <source srcset="images/hero-tablet.webp" media="(min-width: 768px)">
+          <img src="images/hero-mobile.webp" alt="Mobile Applications Screenshots" width="270" height="520">
+        </picture>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="logos fade-in-fast">
+        <p class="text-p text-muted">Trusted by:</p>
+        <div class="logos__grid">
+          <div class="logos__cell"><img src="images/logo-1.webp" alt="Logoipsum" width="111" height="42"></div>
+          <div class="logos__cell"><img src="images/logo-2.webp" alt="Logoipsum" width="111" height="42"></div>
+          <div class="logos__cell"><img src="images/logo-3.webp" alt="Logoipsum" width="111" height="43"></div>
+          <div class="logos__cell"><img src="images/logo-4.webp" alt="Logoipsum" width="111" height="43"></div>
+          <div class="logos__cell logos__cell--offset"><img src="images/logo-5.webp" alt="Logoipsum" width="111" height="43"></div>
+          <div class="logos__cell"><img src="images/logo-6.webp" alt="Logoipsum" width="111" height="43"></div>
+        </div>
+      </section>
+
+      <section id="benefits" class="benefits">
+        <div class="benefits__top fade-in-slow">
+          <div class="benefits__intro">
+            <h2 class="text-captions text-accent">Benefits</h2>
+            <p class="text-h1">We&rsquo;ve cracked the code.</p>
+            <p class="text-p text-muted">Area provides real insights, without the data overload.</p>
+          </div>
+          <div class="benefits__cards">
+            <article class="benefit-card">
+              <img src="images/icon-cable.webp" alt="" class="benefit-card__icon" width="24" height="24">
+              <div class="benefit-card__body">
+                <h3 class="text-h3">Amplify Insights</h3>
+                <p class="text-p text-muted">Unlock data-driven decisions with comprehensive analytics, revealing key opportunities for strategic regional growth.</p>
+              </div>
+            </article>
+            <article class="benefit-card">
+              <img src="images/icon-earth.webp" alt="" class="benefit-card__icon" width="24" height="24">
+              <div class="benefit-card__body">
+                <h3 class="text-h3">Control Your Global Presence</h3>
+                <p class="text-p text-muted">Manage and track satellite offices, ensuring consistent performance and streamlined operations everywhere.</p>
+              </div>
+            </article>
+            <article class="benefit-card">
+              <img src="images/icon-account.webp" alt="" class="benefit-card__icon" width="24" height="24">
+              <div class="benefit-card__body">
+                <h3 class="text-h3">Remove Language Barriers</h3>
+                <p class="text-p text-muted">Adapt to diverse markets with built-in localization for clear communication and enhanced user experience.</p>
+              </div>
+            </article>
+            <article class="benefit-card">
+              <img src="images/icon-chart.webp" alt="" class="benefit-card__icon" width="24" height="24">
+              <div class="benefit-card__body">
+                <h3 class="text-h3">Visualize Growth</h3>
+                <p class="text-p text-muted">Generate precise, visually compelling reports that illustrate your growth trajectories across all regions.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="benefits__photo fade-in-slow">
+          <picture>
+            <source srcset="images/mountain-desktop.webp" media="(min-width: 768px)">
+            <img src="images/mountain-mobile.webp" alt="A mountain range" width="720" height="405">
+          </picture>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="features__left fade-in-fast">
+          <div class="features__intro">
+            <p class="text-h1">See the Big Picture</p>
+            <p class="text-p text-muted">Area turns your data into clear, vibrant visuals that show you exactly what&rsquo;s happening in each region.</p>
+          </div>
+          <div class="features__list fade-in">
+            <div class="features__row">
+              <p class="text-p text-muted">01</p>
+              <p class="text-p">Spot Trends in Seconds: No more digging through numbers.</p>
+            </div>
+            <div class="features__row">
+              <p class="text-p text-muted">02</p>
+              <p class="text-p">Get Everyone on the Same Page: Share easy-to-understand reports with your team.</p>
+            </div>
+            <div class="features__row">
+              <p class="text-p text-muted">03</p>
+              <p class="text-p">Make Presentations Pop: Interactive maps and dashboards keep your audience engaged.</p>
+            </div>
+            <div class="features__row">
+              <p class="text-p text-muted">04</p>
+              <p class="text-p">Your Global Snapshot: Get a quick, clear overview of your entire operation.</p>
+            </div>
+          </div>
+          <a href="#specs" class="btn btn--secondary btn--fit">Discover More</a>
+        </div>
+        <div class="features__right fade-in-slow">
+          <img src="images/paper-roll.webp" alt="Paper Roll" width="1220" height="1221">
+        </div>
+      </section>
+
+      <section id="specs" class="specs">
+        <div class="specs__intro-wrap fade-in">
+          <div class="specs__intro">
+            <h2 class="text-captions text-accent">Specs</h2>
+            <p class="text-h1">Why Choose Area?</p>
+            <p class="text-p text-muted">You need a solution that keeps up. That&rsquo;s why we developed Area. A developer-friendly approach to streamline your business.</p>
+            <a href="#how-to" class="btn btn--secondary">Discover More</a>
+          </div>
+        </div>
+        <div class="specs__table-wrap fade-in-slow">
+          <div class="specs__table">
+            <div class="specs__col specs__col--area">
+              <div class="specs__head"><p class="specs__name">Area</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/check-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Ultra-fast browsing</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/check-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Advanced AI insights</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/check-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Seamless integration</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/check-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Advanced AI insights</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/check-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Ultra-fast browsing</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/check-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Full UTF-8 support</p></div>
+            </div>
+            <div class="specs__col specs__col--middle">
+              <div class="specs__head"><p class="specs__name specs__name--muted">WebSurge</p></div>
+              <div class="specs__cell specs__cell--border-r"><span class="specs__icon-wrap"><img src="images/check-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Fast browsing</p></div>
+              <div class="specs__cell specs__cell--border-r"><span class="specs__icon-wrap"><img src="images/check-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Basic AI recommendations</p></div>
+              <div class="specs__cell specs__cell--border-r"><span class="specs__icon-wrap"><img src="images/check-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Restricts customization</p></div>
+              <div class="specs__cell specs__cell--border-r"><span class="specs__icon-wrap"><img src="images/close-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Basic AI insights</p></div>
+              <div class="specs__cell specs__cell--border-r"><span class="specs__icon-wrap"><img src="images/check-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Fast browsing</p></div>
+              <div class="specs__cell specs__cell--border-r"><span class="specs__icon-wrap"><img src="images/close-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Potential display errors</p></div>
+            </div>
+            <div class="specs__col specs__col--last">
+              <div class="specs__head"><p class="specs__name specs__name--muted">HyperView</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/close-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Moderate speeds</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/close-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">No AI assistance</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/close-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Steep learning curve</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/close-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">No AI assistance</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/close-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Moderate speeds</p></div>
+              <div class="specs__cell"><span class="specs__icon-wrap"><img src="images/close-icon.webp" alt="" class="specs__icon"></span><p class="text-captions specs__label">Partial UTF-8 support</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial fade-in">
+        <img src="images/testimonial.webp" alt="A concrete sphere, balanced between two other larger spheres" class="testimonial__img">
+        <div class="testimonial__quote fade-in-slow">
+          <p class="text-h2">&ldquo;I was skeptical, but Area has completely transformed the way I manage my business. The data visualizations are so clear and intuitive, and the platform is so easy to use. I can&rsquo;t imagine running my company without it.&rdquo;</p>
+          <div class="testimonial__meta">
+            <p class="text-p">John Smith</p>
+            <p class="text-captions text-accent">Head of Data</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-to" class="howto">
+        <div class="howto__header fade-in">
+          <p class="text-h1">Map Your Success</p>
+          <a href="#contacts" class="btn btn--secondary btn--fit">Discover More</a>
+        </div>
+        <div class="howto__steps fade-in-slow">
+          <article class="howto__step">
+            <p class="text-stat">01</p>
+            <div class="howto__step-body">
+              <p class="text-h3">Get Started</p>
+              <p class="text-p text-muted">With our intuitive setup, you&rsquo;re up and running in minutes.</p>
+            </div>
+          </article>
+          <article class="howto__step">
+            <p class="text-stat">02</p>
+            <div class="howto__step-body">
+              <p class="text-h3">Customize and Configure</p>
+              <p class="text-p text-muted">Adapt Area to your specific requirements and preferences.</p>
+            </div>
+          </article>
+          <article class="howto__step">
+            <p class="text-stat">03</p>
+            <div class="howto__step-body">
+              <p class="text-h3">Grow Your Business</p>
+              <p class="text-p text-muted">Make informed decisions to exceed your goals.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <div class="gallery fade-in-fast">
+        <img src="images/landscape.webp" alt="An eye-catching landscape of green." width="900" height="600">
+      </div>
+
+      <section id="contacts" class="contact">
+        <p class="text-h1 fade-in-fast">Connect with us</p>
+        <p class="text-p text-muted fade-in-fast">Schedule a quick call to learn how Area can turn your regional data into a powerful advantage.</p>
+        <a href="#contacts" class="btn btn--primary btn--full group fade-in">
+          Learn Figma
+          <svg class="btn__arrow" width="16" height="16" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v13m0-13 4 4m-4-4-4 4"/></svg>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer fade-in-fast">
+      <div class="footer__nav">
+        <a href="#benefits" class="text-link">Benefits</a>
+        <a href="#specs" class="text-link">Specifications</a>
+        <a href="#how-to" class="text-link">How-to</a>
+      </div>
+      <div class="footer__bar">
+        <img src="images/app-logo.webp" alt="Company logo" class="footer__logo" width="32" height="70">
+        <div class="footer__copy">
+          <p class="text-captions text-accent">&copy; Area.</p>
+          <p class="text-captions text-accent">2025</p>
+        </div>
+        <p class="text-captions text-accent footer__rights">All Rights Reserved</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
